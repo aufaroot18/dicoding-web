@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Porfolio</title>
+	<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+	<header>
+		<nav class="d-flex justify-content-evenly">
+			<a class="nav-link" href="index.html">Home</a>
+			<a class="nav-link" href="#service">Service</a>
+			<a class="nav-link" href="#project">Project</a>
+			<a class="nav-link" href="#blog">Blog</a>
+			<a class="nav-link" href="#contact">Contact</a>
+		</nav>
+	</header>
+	<main>
+		<section id="hero">
+			<div class="hero-content">
+				<h1>Hello, I am Aufa Billah</h1>
+				<h2>Web Dev, Writer, Students</h2>
+				<span class="arrow-down"></span>
+			</div>
+		</section>
+		<section id="service">
+			<h2>Service</h2>
+			<div class="d-flex flex-row justify-content-center">
+				<div class="service-card">
+					<img src="img/service/ui-ux.svg" alt="">
+					<h3>UI/UX</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, cum!</p>
+				</div>
+				<div class="service-card">
+					<img src="img/service/web.svg" alt="">
+					<h3>Web Dev</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, cum!</p>
+				</div>
+				<div class="service-card">
+					<img src="img/service/wordpress.svg" alt="">
+					<h3>Wordpress</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, cum!</p>
+				</div>
+			</div>
+		</section>
+		<section id="project">
+			<h2>Project</h2>
+			<div class="d-flex flex-row justify-content-center">
+				<div class="project-card">
+					<div class="card-image">
+						<img src="img/project/code.svg" alt="">
+					</div>
+					<h3>Coding Website</h3>
+				</div>
+				<div class="project-card">
+					<div class="card-image">
+						<img src="img/project/design.svg" alt="">
+					</div>
+					<h3>Design Website</h3>
+				</div>
+				<div class="project-card">
+					<div class="card-image">
+						<img src="img/project/feed.svg" alt="">
+					</div>
+					<h3>SEO Website</h3>
+				</div>
+			</div>
+		</section>
+		<section id="contact">
+			<h2>Contact</h2>
+			<div class="d-flex flex-row justify-content-center">
+				<div class="contact-form d-flex flex-column justify-content-center">
+					<h3>Email Me</h3>
+					<form action="#">
+						<div>
+							<input type="text" id="name" name="name" placeholder="Your Name">
+							<p class="error error-name"></p>
+						</div>
+						<div>
+							<input type="text" name="email" placeholder="Your Email">
+							<p class="error error-email"></p>
+						</div>
+						<div>
+							<textarea name="message" rows="5" placeholder="Your Message"></textarea>
+							<p class="error error-message"></p>
+						</div>
+						<p class="success"></p>
+						<button>Submit</button>
+					</form>
+				</div>
+				<aside class="contact-profile">
+					<div>
+						<img src="https://via.placeholder.com/150" alt="">
+						<p>Aufa Billah</p>
+						<p>aufaroot18@gmail.com</p>
+						<p>Web Developer</p>
+					</div>
+				</aside>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="footer-body">
+			<h2>Aufa Billah</h2>
+			<p>
+				Want to get to know me more? Connect with me in the link below
+			</p>
+		</div>
+		<div class="footer-link">
+			<ul class="d-flex flex-row justify-content-center">
+				<li><a href="https://www.linkedin.com/in/aufabillah/" target="_blank">Linkedin</a></li>
+				<li><a href="https://github.com/aufaroot18" target="_blank">Github</a></li>
+				<li><a href="https://medium.com/@aufaroot18" target="_blank">Medium</a></li>
+				<li><a href="https://medium.com/@aufaroot18" target="_blank">Blog</a></li>
+			</ul>
+		</div>
+	</footer>
+
+	<script src="script/script.js"></script>
+</body>
+</html>
