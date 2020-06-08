@@ -1,2 +1,0 @@
-# dicoding-web
-Dicoding Web
